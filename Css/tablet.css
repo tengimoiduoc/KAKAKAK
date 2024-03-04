@@ -1,0 +1,40 @@
+@media (max-width: 991.98px) {
+  .banner {
+    height: 92vh;
+  }
+
+  /*Hiding the avata */
+  .avatar {
+    display: none;
+  }
+
+  /* JOB INFORMATION */
+  .job-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* CERTIFICATION */
+
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* PROJECTS */
+  .project-cards {
+    font-size: 12px;
+  }
+
+  .project-title {
+    height: 50px;
+    padding: 10px 5px;
+  }
+
+  tr:nth-child(2) {
+    height: 113px;
+  }
+
+  tr:first-child {
+    height: 233px;
+  }
+}
